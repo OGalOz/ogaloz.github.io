@@ -36,7 +36,7 @@ function FullProgram() {
     CreateTranscriptionsContent(false);
     CreateDiscographyContent(false);
     CreateOtherProjectsContent(false);
-    CreateContactContent(false);
+    //CreateContactContent(false);
 
 }
 
@@ -201,9 +201,9 @@ function SetBtnOnClick(btn_obj, btn_name, btn_i) {
     } else if (btn_name == "Other Projects") {
 
         btn_obj.setAttribute("onclick", "CreateOtherProjectsContent(true)");
-    } else if (btn_name == "Contact") {
-
-        btn_obj.setAttribute("onclick", "CreateContactContent(true)");
+    //} else if (btn_name == "Contact") {
+    //
+    //      btn_obj.setAttribute("onclick", "CreateContactContent(true)");
     } else {
         alert("Error- do not recognize button name")
     }

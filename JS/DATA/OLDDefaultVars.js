@@ -80,6 +80,15 @@ DefaultVars = {
                         "top": 94,
                         "height": 42,
                         "width": 300
+                    },
+                    "Contact": {
+                        "border_color":"" ,
+                        "fill_color": "#002db3",
+                        "fill_text_color": "white",
+                        "left": 950,
+                        "top": 215,
+                        "height": 42,
+                        "width": 150
                     }
                 }
             },
