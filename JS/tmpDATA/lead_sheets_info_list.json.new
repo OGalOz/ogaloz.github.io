@@ -1,0 +1,138 @@
+{
+    "json_type": "page_data",
+    "json_name": "lead_sheets_page_data",
+    "lead_sheets_info_list": [{
+
+    "song_name":"Chance" ,
+    "artist_name":"Kenny Kirkland" ,
+    "album_name": "Kenny Kirkland",
+    "date_of_release": "" ,
+    "date_of_recording": "",
+    "video_link":"",
+    "download_link":"https://gumroad.com/l/CXtha",
+    "description": ""
+
+    },
+    {
+
+    "song_name": "",
+    "artist_name":"",
+    "album_name":"" ,
+
+    "date_of_recording": "", 
+    "date_of_release" : "",
+    "video_link": "",
+    "purchase_link": "",
+    "description": ""
+
+
+
+    },
+    {
+
+    "song_name": "" ,
+    "artist_name":"" ,
+    "album_name": "",
+    "date_of_recording":"" ,
+    "date_of_release": "" ,
+    "video_link": "",
+    "purchase_link": "",
+    "description": ""
+
+    },{
+
+    "song_name": "",
+    "artist_name": "",
+    "album_name": "" ,
+    "date_of_ recording": "", 
+    "date_of_release" : "" ,
+    "video_link": "",
+    "purchase_link": "" ,
+    "description": ""
+
+
+
+    },{
+
+    "song_name": "Goin' Home",
+    "artist_name": "Art Tatum",
+    "album_name": "Complete Capitol Recordings",
+
+    "date_of_recording": "1949?" , 
+    "date_of_release" : "1949?" ,
+    "video_link": "https://www.youtube.com/watch?v=gHQYm_mducA" ,
+    "purchase_link": "https://gumroad.com/products/jxvS",
+    "description": "Art Tatum's interpretation of the 'Largo' theme from Dvorak's New World Symphony."
+
+    },{
+
+    "song_name": "Just A-Sittin' and A-Rockin'",
+    "artist_name": "Art Tatum",
+    "album_name": "The Complete Pablo Solo Masterpieces - Disc 2",
+
+    "date_of_recording": "1953- 1955?", 
+    "date_of_release" : "1991?",
+    "video_link": "https://www.youtube.com/watch?v=RXcAOG3grqs",
+    "purchase_link": "https://gumroad.com/products/UEsAQ" ,
+    "description": "One of the most harmonically and rhythmically adventurous of Art Tatum's recordings that I've heard."
+
+
+
+    },{
+
+    "song_name": "Humoresque",
+    "artist_name": "Art Tatum",
+    "album_name": "Piano Starts Here",
+
+    "date_of_recording": "(before 1950)?", 
+    "date_of_release" :"1968?",
+    "video_link": "https://www.youtube.com/watch?v=RXcAOG3grqs",
+    "purchase_link": "https://gumroad.com/products/UEsAQ",
+    "description": "Art Tatum's interpretation of Dvorak's theme 'Humoresque'. It was originally composed by Dvorak in 1894."
+
+
+
+    }, {
+
+    "song_name": "Tatum Pole Boogie",
+    "artist_name": "Art Tatum",
+    "album_name": "Piano Starts Here",
+
+    "date_of_recording": "(before 1950)?", 
+    "date_of_release" : "1968?",
+    "video_link": "https://www.youtube.com/watch?v=SyMA56lVyQ8" ,
+    "purchase_link": "https://gumroad.com/products/GlxQ",
+    "description": "This is an Art Tatum original composition, it goes between broken boogie-woogie, octave left hand boogie, and stride. It is one of my favorite Art Tatum recordings ever. It explores a variety of techniques."
+
+    }, {
+
+    "song_name": "Split Kick",
+    "artist_name": "Art Blakey Quintet",
+    "album_name": "A Night at Birdland Vol. 1",
+    "date_of_recording":"February 21, 1954" , 
+    "date_of_release" : "July 1954" ,
+    "video_link": "https://www.youtube.com/watch?v=cB2qGkHZ8Bw" ,
+    "purchase_link":"https://gumroad.com/products/NQCPc" ,
+    "description": "A transcription of  Clifford Brown, Lou Donaldson, and Horace Silver (all comping) on the tune 'Split Kick', which is a contrafact on 'There Will Never Be Another You.'"
+
+    },
+    {
+
+    "song_name": "",
+    "artist_name":"" ,
+    "album_name":"" ,
+
+    "date_of_recording": "", 
+    "date_of_release" : "",
+    "video_link": "",
+    "purchase_link": "",
+    "description": ""
+
+
+
+    }]
+}
+
+
+
+
