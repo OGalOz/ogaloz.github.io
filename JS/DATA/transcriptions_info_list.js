@@ -360,7 +360,7 @@ transc_i = {
         "img_link": "img/JPEGs/TRSC/DBM_1.jpg",
         "audio_link": "https://youtu.be/FuumSlrhadI",
         "purchase_link":"https://gum.co/KeLRJV",
-        "description": [""]
+        "description": ["A transcription of the entire recording"]
     },
     {
     "id_base": "trnsc-CarSht",
@@ -384,7 +384,7 @@ transc_i = {
         "img_link": "img/JPEGs/TRSC/Mr_JC_1.jpg",
         "audio_link":"https://youtu.be/O4SyQWw8MeU",
         "purchase_link":"https://gumroad.com/l/BHEcS",
-        "description": [""]
+        "description": ["Kenny's solo, Branford solo"]
         
         },
 
@@ -399,7 +399,7 @@ transc_i = {
         "img_link": "img/JPEGs/TRSC/SDMPWC_BE.jpg",
     "audio_link":"https://youtu.be/5Wd--YgSCfA",
     "purchase_link": "https://gumroad.com/l/QIHIS",
-    "description": ["You can't go wrong with Bill."]
+    "description": ["The entire transcription of Bill Evans on the tune."]
 
     },
         {
@@ -424,7 +424,7 @@ transc_i = {
     "album_name": "Miles Smiles",
     "year_of_recording":"1966" ,
     "date_of_release": "February 16, 1967" ,
-    "audio_link": "https://www.youtube.com/watch?v=_7m_7Duwr9k",
+    "audio_link": "https://youtu.be/1TjgoXf3ivE",
         "img_link": "img/JPEGs/TRSC/Footprints_MS.jpg",
     "purchase_link": "https://gumroad.com/l/xcjwe",
     "description": ["This is a transcription of Miles Davis, Wayne Shorter, and Herbie Hancock (both hands) for the entire duration of the song. Herbie's voicings are worth checking out."]
@@ -468,7 +468,7 @@ transc_i = {
     "year_of_recording": "1953-1955?", 
     "date_of_release" : "1991?",
         "img_link": "img/JPEGs/TRSC/Just_A_Sittin_And_A_Rockin.jpg",
-    "audio_link": "https://www.youtube.com/watch?v=RXcAOG3grqs",
+    "audio_link": "https://youtu.be/FPD0IR9kG44",
     "purchase_link": "https://gumroad.com/products/UEsAQ" ,
     "description": ["One of the most harmonically and rhythmically adventurous of Art Tatum's recordings that I've heard."]
 
@@ -492,17 +492,17 @@ transc_i = {
 
     }, {
 
-        "id_base": "trnsc-TaPoBg",
-    "song_name": "Tatum Pole Boogie",
-    "artist_name": "Art Tatum",
-    "album_name": "Piano Starts Here",
+           "id_base": "trnsc-TaPoBg",
+       "song_name": "Tatum Pole Boogie",
+       "artist_name": "Art Tatum",
+       "album_name": "Piano Starts Here",
 
-    "year_of_recording": "?", 
-    "date_of_release" : "1968?",
-        "img_link": "img/JPEGs/TRSC/TPBgi.jpg",
-    "audio_link": "https://www.youtube.com/watch?v=SyMA56lVyQ8" ,
-    "purchase_link": "https://gumroad.com/products/GlxQ",
-    "description": ["This is an Art Tatum original composition, it goes between broken boogie-woogie, octave left hand boogie, and stride. It is one of my favorite Art Tatum recordings ever. It explores a variety of techniques."]
+       "year_of_recording": "?", 
+       "date_of_release" : "1968?",
+           "img_link": "img/JPEGs/TRSC/TPBgi.jpg",
+       "audio_link": "https://youtu.be/SyMA56lVyQ8",
+       "purchase_link": "https://gumroad.com/products/GlxQ",
+       "description": ["This is an Art Tatum original composition, it goes between broken boogie-woogie, octave left hand boogie, and stride. It is one of my favorite Art Tatum recordings ever. It explores a variety of techniques."]
 
     }, {
 
