@@ -65,7 +65,7 @@ function SetWindowToDiv() {
 
 
     //We set background gradient
-    document.body.style.backgroundImage = "linear-gradient(white, #ccffff, white)";
+    document.body.style.backgroundImage = "linear-gradient(white, #ecd290, white)";
 
     return main_div
 
