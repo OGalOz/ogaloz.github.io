@@ -53,7 +53,7 @@ other_projects_data_i = {
                 "transitionDuration": "1200ms"
             },
             "unq_prp": {
-                "innerHTML": "Stay tuned for more!!"
+                "innerHTML": "Last Chance Trio. Released March 2022."
             }
         }
     }

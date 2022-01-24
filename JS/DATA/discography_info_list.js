@@ -294,7 +294,7 @@ disc_i = {
             "video_link":"",
             "listen_link": "https://omreegal-oz.bandcamp.com/track/storm",
             "purchase_link":"https://omreegal-oz.bandcamp.com/track/storm",
-            "description": ["Solo piano piece in ballad form."],
+            "description": ["One of the ballads I'm most proud of."],
             "leader_bool": true
         },
         {
@@ -320,7 +320,7 @@ disc_i = {
             "video_link":"",
             "listen_link": "https://omreegal-oz.bandcamp.com/album/time-framed",
             "purchase_link":"https://omreegal-oz.bandcamp.com/album/time-framed",
-            "description": ["My first album. Percussion heavy. Features Giulio Cetto (bass),",
+            "description": ["My first album! Features Giulio Cetto (bass),",
                             " Ahkeel Mestayer (percussion), and Malachi Whitson (drums)."],
             "leader_bool": true
         },
