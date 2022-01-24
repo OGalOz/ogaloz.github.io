@@ -326,6 +326,23 @@ disc_i = {
         },
         {
 
+        "id_base": "from-here-on-out",
+    "artist_name":"Greg Johnson" ,
+    "artist_website":"https://www.gregjohnsonjazz.com/" ,
+    "album_name": "From Here On Out",
+    "img_link": "img/JPEGs/DSCG/From_Here_On_Out.jpg",
+    "date_of_release": "Aug. 20th, 2021" ,
+    "date_of_recording": "Oct. 2020",
+    "video_link":"",
+    "listen_link": "https://music.apple.com/us/album/from-here-on-out/1573086293",
+    "purchase_link":"https://music.apple.com/us/album/from-here-on-out/1573086293",
+    "description": [""],
+    "leader_bool": false
+
+    },
+
+        {
+
         "id_base": "philpath-discog",
     "artist_name":"Greg Johnson" ,
     "artist_website":"https://www.gregjohnsonjazz.com/" ,
