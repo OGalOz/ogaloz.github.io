@@ -325,6 +325,24 @@ disc_i = {
             "leader_bool": true
         },
         {
+        "id_base": "chapters-ari",
+        "artist_name":"Ari Giancaterino" ,
+        "artist_website":"https://arigiancaterino.com/" ,
+        "album_name": "Chapters",
+        "img_link": "img/JPEGs/DSCG/Ari_Chapters.jpg",
+        "date_of_release": "Feb. 1st, 2022" ,
+        "date_of_recording": "Oct. 2021",
+        "video_link":"",
+        "listen_link": "https://linktr.ee/Gian_cat",
+        "purchase_link":"https://linktr.ee/Gian_cat",
+        "description": [""],
+        "leader_bool": false
+
+    },
+
+
+
+        {
 
         "id_base": "from-here-on-out",
     "artist_name":"Greg Johnson" ,
