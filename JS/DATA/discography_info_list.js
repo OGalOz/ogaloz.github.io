@@ -285,6 +285,19 @@ disc_i = {
     },
     "leader_discography_info_list": [
         {
+            "id_base": "chance-discog",
+            "artist_name":"Last Chance Trio" ,
+            "album_name": "Chance",
+            "img_link": "img/JPEGs/DSCG/OG_Last_Chance_Trio.png",
+            "date_of_release": "March 23rd, 2022" ,
+            "date_of_recording": "May 20th, 2021",
+            "video_link":"https://youtu.be/rTT7ccbTo1g",
+            "listen_link": "https://songwhip.com/lastchancetrio/chance",
+            "purchase_link":"https://omreegal-oz.bandcamp.com/album/chance",
+            "description": ["A recording with a couple of my favorite musicians, Marcelo Perez and Logan Kane."],
+            "leader_bool": true
+        },
+        {
             "id_base": "storm-discog",
             "artist_name":"Omree Gal-Oz" ,
             "album_name": "Storm",
@@ -294,7 +307,7 @@ disc_i = {
             "video_link":"",
             "listen_link": "https://omreegal-oz.bandcamp.com/track/storm",
             "purchase_link":"https://omreegal-oz.bandcamp.com/track/storm",
-            "description": ["One of the ballads I'm most proud of."],
+            "description": ["My attempt at continuing the story of Evolution 1."],
             "leader_bool": true
         },
         {
