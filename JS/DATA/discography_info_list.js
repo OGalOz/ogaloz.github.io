@@ -353,7 +353,36 @@ disc_i = {
 
     },
 
+    {
+            "id_base": "calamities-discog",
+            "artist_name":"Ryan Pate",
+            "artist_website": "https://ryanpate.bandcamp.com/",
+            "album_name": "Calamities of Silence",
+            "img_link": "img/JPEGs/DSCG/Calamities_of_silence.jpg" ,
+            "date_of_release": "October 9th, 2020" ,
+            "date_of_recording": "",
+            "video_link":"",
+            "listen_link": "https://ryanpate.bandcamp.com/album/calamities-of-silence",
+            "purchase_link":"https://ryanpate.bandcamp.com/album/calamities-of-silence",
+            "description": [""]
 
+    },
+        {
+
+    "id_base": "backtoyou-discog",
+    "artist_name":"Rhonda Sauce" ,
+    "artist_website":"https://www.rhondasauce.com/" ,
+    "album_name": "Back To You",
+    "img_link": "img/JPEGs/DSCG/RhondaBackToYou.jpg",
+    "date_of_release": "" ,
+    "date_of_recording": "",
+    "video_link":"",
+    "listen_link": "https://rhondasauce.bandcamp.com/releases",
+    "purchase_link":"https://rhondasauce.bandcamp.com/releases",
+    "description": [""],
+    "leader_bool": false
+
+    },
 
         {
 
@@ -388,36 +417,24 @@ disc_i = {
     "leader_bool": false
 
     },
+
     {
-            "id_base": "calamities-discog",
-            "artist_name":"Ryan Pate",
-            "artist_website": "https://ryanpate.bandcamp.com/",
-            "album_name": "Calamities of Silence",
-            "img_link": "img/JPEGs/DSCG/Calamities_of_silence.jpg" ,
-            "date_of_release": "October 9th, 2020" ,
-            "date_of_recording": "",
-            "video_link":"",
-            "listen_link": "https://ryanpate.bandcamp.com/album/calamities-of-silence",
-            "purchase_link":"https://ryanpate.bandcamp.com/album/calamities-of-silence",
-            "description": [""]
-
-    },
-        {
-
-    "id_base": "backtoyou-discog",
-    "artist_name":"Rhonda Sauce" ,
-    "artist_website":"https://www.rhondasauce.com/" ,
-    "album_name": "Back To You",
-    "img_link": "img/JPEGs/DSCG/RhondaBackToYou.jpg",
-    "date_of_release": "" ,
-    "date_of_recording": "",
-    "video_link":"",
-    "listen_link": "https://rhondasauce.bandcamp.com/releases",
-    "purchase_link":"https://rhondasauce.bandcamp.com/releases",
+    "id_base": "beneath-streetlight-discog",
+    "artist_name":"Joe Kornfeld" ,
+    "artist_website":"" ,
+    "album_name": "Beneath the Streetlight",
+    "img_link": "img/JPEGs/DSCG/Joe_Kornfeld_Beneath_the_Streetlight.jpg" ,
+    "date_of_release": "April 2022" ,
+    "date_of_recording": "Summer 2021",
+    "video_link": "",
+    "listen_link": "https://www.iheart.com/artist/joe-kornfeld-37889278/",
+    "purchase_link":"https://www.iheart.com/artist/joe-kornfeld-37889278/",
     "description": [""],
     "leader_bool": false
 
     },
+
+
     {
     "id_base": "callingall-discog",
     "artist_name":"Alison Gant" ,
