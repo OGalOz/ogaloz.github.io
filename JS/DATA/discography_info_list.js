@@ -400,6 +400,22 @@ disc_i = {
     "leader_bool": false
 
     },
+        {
+
+        "id_base": "little-moments",
+    "artist_name":"Evelyn Rose" ,
+    "artist_website":"https://evelynrosemusic.com/" ,
+    "album_name": "Little Moments",
+    "img_link": "img/JPEGs/DSCG/Evelyn_Rose_Little_Moments.jpg",
+    "date_of_release": "Aug. 25th, 2022" ,
+    "date_of_recording": "?",
+    "video_link":"",
+    "listen_link": "https://open.spotify.com/album/4GNDWACeM9H3M0n4Kd4bl0",
+    "purchase_link":"https://music.apple.com/us/album/little-moments/1640413920",
+    "description": [""],
+    "leader_bool": false
+
+        },
 
         {
 
@@ -466,6 +482,22 @@ disc_i = {
     "leader_bool": false
 
     },
+        {
+        "id_base": "jennie-and-gold",
+    "artist_name":"Jennie & the Gold Endeavor" ,
+    "artist_website":"https://jennieandthegoldendeavor.bandcamp.com/album/jennie-the-gold-endeavor" ,
+    "album_name": "Jennie & the Gold Endeavor",
+    "img_link": "img/JPEGs/DSCG/Jennie_and_Gold.jpeg",
+    "date_of_release": "Aug. 16th, 2022" ,
+    "date_of_recording": "?",
+    "video_link":"",
+    "listen_link": "https://jennieandthegoldendeavor.bandcamp.com/album/jennie-the-gold-endeavor",
+    "purchase_link":"https://jennieandthegoldendeavor.bandcamp.com/album/jennie-the-gold-endeavor",
+    "description": [""],
+    "leader_bool": false
+
+        },
+
         {
 
             "id_base": "armov-discog",

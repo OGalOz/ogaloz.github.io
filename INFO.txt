@@ -2,3 +2,5 @@
 
 
 Main site running is in JS/LayoutFuncs.js
+
+To upload to GH run g_script.sh
