@@ -349,7 +349,22 @@ transc_i = {
         " comping and solos, in addition to all of Coltrane's playing.",
         " It also includes the bass solos and the drum solos, but not their comping."]
 
-    }, {
+    }, 
+    {
+    "id_base": "trnsc-MFV",
+    "song_name": "My Funny Valentine (Miles Davis 1964)",
+    "artist_name":"Miles Davis",
+    "album_name":"My Funny Valentine: Miles Davis in Concert" ,
+    "year_of_recording": "1964", 
+    "date_of_release" : "1965",
+        "img_link": "img/JPEGs/TRSC/My_Funny_Valentine.jpg",
+    "audio_link": "https://youtu.be/BpIKfMdUo7o",
+    "purchase_link": "https://omree.gumroad.com/l/vstgf",
+    "description": ["This transcription contains all of Miles Davis, Herbie Hancock, Miles Davis, Ron Carter and Wayne Shorter,",
+        " comping and solos, on the track My Funny Valentine from Live at the Philharmonic 1964"
+    ]
+    },
+    {
 
     "id_base": "trnsc-DBM",
         "song_name":"Don't Blame Me" ,
