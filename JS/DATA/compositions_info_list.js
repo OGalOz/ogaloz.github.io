@@ -269,6 +269,19 @@ comp_i = {
     "alternate_desc": [],
     "instrumentation": "Solo Piano"
     },
+    {
+    "id_base": "etude-d-major-comp",
+    "composition_name": "Etude D Major",
+    "year_composed":"2025" ,
+    "album_name":"Etudes" ,
+    "video_link": "https://youtu.be/jkbqHPZjlpI?si=a31e8wepH0CduSvp",
+    "audio_link": "https://youtu.be/jkbqHPZjlpI?si=a31e8wepH0CduSvp",
+    "img_link": "img/JPEGs/COMP/Etude_D_Maj_1st.jpg",
+    "purchase_link": "https://omree.gumroad.com/l/hmaej",
+    "description": [],
+    "alternate_desc": [],
+    "instrumentation": "Solo Piano"
+    },
     {    
     "id_base": "woods-comp",
     "composition_name": "Woods",
