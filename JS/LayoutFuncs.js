@@ -35,7 +35,7 @@ function FullProgram() {
     CreateCompositionsContent(false);
     CreateTranscriptionsContent(false);
     CreateDiscographyContent(false);
-    CreateOtherProjectsContent(false);
+    CreatePerformancesContent(false);
     //CreateContactContent(false);
 
 }
@@ -198,9 +198,9 @@ function SetBtnOnClick(btn_obj, btn_name, btn_i) {
     } else if (btn_name == "Compositions") {
 
         btn_obj.setAttribute("onclick", "CreateCompositionsContent(true)");
-    } else if (btn_name == "Other Projects") {
+    } else if (btn_name == "Performances") {
 
-        btn_obj.setAttribute("onclick", "CreateOtherProjectsContent(true)");
+        btn_obj.setAttribute("onclick", "CreatePerformancesContent(true)");
     //} else if (btn_name == "Contact") {
     //
     //      btn_obj.setAttribute("onclick", "CreateContactContent(true)");
@@ -393,32 +393,32 @@ function emailListSubmitFunc() {
 
 }
 
-function CreateOtherProjectsContent(active_bool) {
+function CreatePerformancesContent(active_bool) {
 
 
-    if (!("OtherProjects" in pressed_buttons_d)) {
+    if (!("Performances" in pressed_buttons_d)) {
 
         if (active_bool) {
             // First we get the content div and clear it out
-            let content_div = ClearAndGetContentDiv("OtherProjects"); 
-            UpdateButtons("Other Projects");
+            let content_div = ClearAndGetContentDiv("Performances");
+            UpdateButtons("Performances");
 
         }
 
-        // comp_i is the name of the data object
-        // Then we check if Home has already been created or not
-        if ("OtherProjects" in created_contents) {
+        // perf_i is the name of the data object
+        // Then we check if Performances has already been created or not
+        if ("Performances" in created_contents) {
 
             //You get every element's left, top, and width by its id
-            otherProjects_elems = document.getElementsByClassName(IDify("OtherProjects") + "-content");
+            performances_elems = document.getElementsByClassName(IDify("Performances") + "-content");
 
-            console.log("otherProjects HERE")
+            console.log("Performances HERE")
 
-            // For all the elements with this class, we make their opacity 1 and move them 
+            // For all the elements with this class, we make their opacity 1 and move them
             // to the right location with the right width.
-            for (let i=0; i<otherProjects_elems.length; i++) {
+            for (let i=0; i<performances_elems.length; i++) {
 
-                let crnt_elem = otherProjects_elems[i];
+                let crnt_elem = performances_elems[i];
 
                 let elem_info = id_to_active_left_and_width[crnt_elem.id];
                 //let crnt_bsc_layout_d = id_to_basic_layout_d[crnt_elem.id];
@@ -429,38 +429,120 @@ function CreateOtherProjectsContent(active_bool) {
             }
 
         } else {
-            // We create all the elements on the right side with 0 opacity, 
+            // We create all the elements on the right side with 0 opacity,
             // and then move them to their final place
-            
 
-            let otherProjects_i_l = other_projects_data_i["otherProjects_info_d"];
-            console.log(otherProjects_i_l);
-            let object_names_list = Object.keys(otherProjects_i_l);
-            for (let i=0; i < object_names_list.length; i++ ) {
-                let obj_name = object_names_list[i];
-                LUCreateBlockElementFromInfo(
-                    otherProjects_i_l[obj_name],
-                    "", 
-                    "OtherProjects-content")
+            // Create title
+            createPerformancesTitle();
 
-                let Dom_Obj = document.getElementById(otherProjects_i_l[obj_name]["ids_d"]["id_ext"]);
-                id_to_active_left_and_width[Dom_Obj.id] = {
-                        "left": Dom_Obj.style.left,
-                        "width": Dom_Obj.style.width
-                }
-
-                MoveInitializedElementToRightStored(Dom_Obj); 
-
+            // Create YouTube video embeds
+            let video_list = perf_i["video_list"];
+            for (let i=0; i < video_list.length; i++ ) {
+                createPerformanceVideo(video_list[i], i);
             }
 
-            created_contents["OtherProjects"] = 1;
+            created_contents["Performances"] = 1;
         }
-        
+
         if (active_bool) {
-            active_content_d["OtherProjects"] = 1;
+            active_content_d["Performances"] = 1;
         }
     }
 
+}
+
+
+function createPerformancesTitle() {
+    // Create the "Performances" title
+    let content_div = document.getElementById("content-div");
+
+    let perf_title = document.createElement("DIV");
+    perf_title.id = "performances-title-div-block-div-container-main";
+    perf_title.className = "Performances-content";
+    perf_title.innerHTML = "Performances";
+    perf_title.style.position = "absolute";
+    perf_title.style.top = "50px";
+    perf_title.style.left = "400px";
+    perf_title.style.width = "550px";
+    perf_title.style.height = "60px";
+    perf_title.style.fontSize = "40px";
+    perf_title.style.fontWeight = "bold";
+    perf_title.style.textAlign = "center";
+    perf_title.style.transitionDuration = "1200ms";
+    perf_title.style.opacity = "0";
+
+    content_div.appendChild(perf_title);
+
+    id_to_active_left_and_width[perf_title.id] = {
+        "left": perf_title.style.left,
+        "width": perf_title.style.width
+    };
+
+    MoveInitializedElementToRightStored(perf_title);
+}
+
+function extractYouTubeID(url) {
+    // Extract YouTube video ID from various URL formats
+    let videoId = null;
+
+    // Handle youtu.be format
+    if (url.includes("youtu.be/")) {
+        videoId = url.split("youtu.be/")[1].split("?")[0];
+    }
+    // Handle youtube.com/watch?v= format
+    else if (url.includes("youtube.com/watch?v=")) {
+        videoId = url.split("v=")[1].split("&")[0];
+    }
+
+    return videoId;
+}
+
+function createPerformanceVideo(video_data, index) {
+    // Create a YouTube video embed
+    let content_div = document.getElementById("content-div");
+
+    let videoId = extractYouTubeID(video_data.link);
+
+    // Create container div for video and title
+    let container = document.createElement("DIV");
+    container.id = "performance-video-" + index + "-block-div-container-main";
+    container.className = "Performances-content";
+    container.style.position = "absolute";
+    container.style.top = (150 + index * 450) + "px";
+    container.style.left = "300px";
+    container.style.width = "750px";
+    container.style.transitionDuration = "1200ms";
+    container.style.opacity = "0";
+
+    // Create title div
+    let titleDiv = document.createElement("DIV");
+    titleDiv.innerHTML = video_data.title;
+    titleDiv.style.fontSize = "24px";
+    titleDiv.style.fontWeight = "bold";
+    titleDiv.style.marginBottom = "15px";
+    titleDiv.style.textAlign = "center";
+
+    // Create iframe for YouTube embed
+    let iframe = document.createElement("IFRAME");
+    iframe.src = "https://www.youtube.com/embed/" + videoId;
+    iframe.width = "700";
+    iframe.height = "394";
+    iframe.style.border = "none";
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
+    iframe.setAttribute("allowfullscreen", "");
+    iframe.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+
+    container.appendChild(titleDiv);
+    container.appendChild(iframe);
+    content_div.appendChild(container);
+
+    id_to_active_left_and_width[container.id] = {
+        "left": container.style.left,
+        "width": container.style.width
+    };
+
+    MoveInitializedElementToRightStored(container);
 }
 
 

@@ -72,7 +72,7 @@ DefaultVars = {
                         "height": 42,
                         "width": 180
                     },
-                    "Other Projects": {
+                    "Performances": {
                         "border_color":"" ,
                         "fill_color":"#4db8ff",
                         "fill_text_color": "black",
