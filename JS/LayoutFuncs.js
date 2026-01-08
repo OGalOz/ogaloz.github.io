@@ -487,13 +487,16 @@ function extractYouTubeID(url) {
 
     // Handle youtu.be format
     if (url.includes("youtu.be/")) {
-        videoId = url.split("youtu.be/")[1].split("?")[0];
+        let parts = url.split("youtu.be/")[1];
+        videoId = parts.split("?")[0].split("&")[0];
     }
     // Handle youtube.com/watch?v= format
     else if (url.includes("youtube.com/watch?v=")) {
-        videoId = url.split("v=")[1].split("&")[0];
+        let parts = url.split("v=")[1];
+        videoId = parts.split("&")[0].split("?")[0];
     }
 
+    console.log("Extracted video ID: " + videoId + " from URL: " + url);
     return videoId;
 }
 
@@ -502,6 +505,11 @@ function createPerformanceVideo(video_data, index) {
     let content_div = document.getElementById("content-div");
 
     let videoId = extractYouTubeID(video_data.link);
+
+    if (!videoId) {
+        console.error("Failed to extract video ID from: " + video_data.link);
+        return;
+    }
 
     // Create container div for video and title
     let container = document.createElement("DIV");
